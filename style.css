@@ -2,6 +2,7 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Montserrat', sans-serif;
 }
 --root{
     font-family: 'Inter', sans-serif;
@@ -56,8 +57,8 @@
     margin-top: 32px;
 }
 .donate-today{
-    margin: 100px 0;
-    padding: 80px 0;
+    margin: 5% 0;
+    height: 60vh;
 }
 .donate-today h2{
     font-family: 'Inter';
@@ -72,7 +73,7 @@
     text-align: center;
 }
 .donate-card{
-    margin: 64px 0;
+    margin: 5% 0;
     display: flex;
     justify-content: center;
     gap: 16px;
@@ -109,7 +110,8 @@
     border-bottom: 1px solid #B3B3B3;
 }
 .donate-plan{
-    margin: 100px 0;
+    margin: 5% 0;
+    height: 60vh;
 }
 .donate-plan h2{
     font-family: 'Inter';
@@ -177,4 +179,90 @@
     font-weight: 700;
     font-size: 45px;
     line-height: 54px;
+}
+.get-updates{
+    margin: 100px 0;
+}
+.get-updates h2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 54px;
+    text-align: center;
+}
+.get-updates p{
+    text-align: center;
+}
+
+.email-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.update-email{
+    background-color: #FFF4D6;
+    margin: 5% 25%;
+    padding: 70px 0;
+}
+.update-email input{
+    padding: 16px 16px;
+    background-color: #D9D9D9;
+    outline: none;
+    border: none;
+    border-start-start-radius: 8px 8px;
+    border-end-start-radius: 8px 8px;
+}
+.update-email a{
+    padding: 15px 15px;
+    background-color: #FF5959;
+    text-decoration: none;
+    color: white;
+    border-start-end-radius: 8px 8px;
+    border-end-end-radius: 8px 8px;
+}
+.help-report{
+    margin: 5% 0;
+}
+.help-report h2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 54px;
+    text-align: center;
+}
+.report-content{
+    margin: 50px 0;
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    text-align: center;
+    color: #707070;
+}
+.report{
+    border: 1px solid #FF5959;
+    padding: 36px;
+    box-shadow: 10px 10px 15px #B3B3B3;
+    border-radius: 8px;
+}
+footer{
+    background-color: #000;
+    padding: 36px 0;
+}
+
+footer h2{
+    font-family: 'Lobster';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 44px;
+    letter-spacing: 0.5px;
+    text-align: center;
+    color: #FF5959;
+    margin: 16px 0;
+}
+footer p{
+    text-align: center;
+    color: #D9D9D9;
 }
