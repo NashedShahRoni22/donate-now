@@ -1,14 +1,18 @@
+/* google-fonts */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lobster&family=Montserrat:wght@400;700&display=swap');
-*{
-    margin: 0;
-    padding: 0;
-    font-family: 'Montserrat', sans-serif;
-}
 --root{
     font-family: 'Inter', sans-serif;
     font-family: 'Lobster', cursive;
     font-family: 'Montserrat', sans-serif;
 }
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/* first banner */
 .first-banner{
     background-image: url(./images/donation9.jpg);
     height: 100vh;
@@ -56,6 +60,9 @@
 .btn-class{
     margin-top: 32px;
 }
+
+
+/* donate banner */
 .donate-today{
     margin: 5% 0;
     height: 60vh;
@@ -125,6 +132,9 @@
 .donate-plan p{
     text-align: center;
 }
+
+
+/* plan-banner */
 .plan-card{
     display: flex;
     justify-content: center;
@@ -154,6 +164,8 @@
     background: rgba(255, 244, 214, 1);
 }
 
+/* depends-banner */
+
 .depends-donation{
     display: flex;
     justify-content: center;
@@ -180,6 +192,8 @@
     font-size: 45px;
     line-height: 54px;
 }
+
+/* updates-part */
 .get-updates{
     margin: 100px 0;
 }
@@ -221,6 +235,8 @@
     border-start-end-radius: 8px 8px;
     border-end-end-radius: 8px 8px;
 }
+
+/* help part */
 .help-report{
     margin: 5% 0;
 }
@@ -232,6 +248,7 @@
     line-height: 54px;
     text-align: center;
 }
+/* report part */
 .report-content{
     margin: 50px 0;
     display: flex;
@@ -242,10 +259,28 @@
 }
 .report{
     border: 1px solid #FF5959;
-    padding: 36px;
+    width: 10%;
+    padding: 50px 50px;
     box-shadow: 10px 10px 15px #B3B3B3;
     border-radius: 8px;
 }
+.report-img{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+.report-img img{
+    height: 250px;
+    width: 250px;
+    border: 2px solid #FF5959;
+    border-radius: 8px;
+}
+.report img{
+    height: 60px;
+    width: 60px;
+}
+
+/* footer */
 footer{
     background-color: #000;
     padding: 36px 0;
